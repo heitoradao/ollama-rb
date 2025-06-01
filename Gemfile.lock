@@ -1,0 +1,68 @@
+PATH
+  remote: .
+  specs:
+    ollama.rb (0.1.1)
+      json
+      net-http
+      uri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.5.1)
+    json (2.6.3)
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
+    net-http (0.4.1)
+      uri
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    rake (13.0.6)
+    rexml (3.4.1)
+    rouge (4.2.0)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    strings (0.2.1)
+      strings-ansi (~> 0.2)
+      unicode-display_width (>= 1.5, < 3.0)
+      unicode_utils (~> 1.4)
+    strings-ansi (0.2.0)
+    tty-color (0.6.0)
+    tty-markdown (0.7.2)
+      kramdown (>= 1.16.2, < 3.0)
+      pastel (~> 0.8)
+      rouge (>= 3.14, < 5.0)
+      strings (~> 0.2.0)
+      tty-color (~> 0.5)
+      tty-screen (~> 0.8)
+    tty-screen (0.8.2)
+    unicode-display_width (2.6.0)
+    unicode_utils (1.4.0)
+    uri (0.12.2)
+
+PLATFORMS
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  json
+  net-http
+  ollama.rb!
+  rake (~> 13.0)
+  rouge
+  rspec (~> 3.0)
+  tty-markdown
+  uri
+
+BUNDLED WITH
+   2.4.20
