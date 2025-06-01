@@ -1,6 +1,6 @@
 #! /usr/bin/env ruby
 
-require 'ollama'
+require 'ollama-rb'
 require 'readline'
 require 'tty-markdown'
 require 'optparse'

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative "ollama/version"
-require_relative "ollama/client"
+require_relative "ollama-rb/version"
+require_relative "ollama-rb/client"
 
 module Ollama
   class Error < StandardError; end
