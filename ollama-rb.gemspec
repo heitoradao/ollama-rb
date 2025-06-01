@@ -3,14 +3,14 @@
 require_relative "lib/ollama-rb/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "ollama.rb"
+  spec.name = "ollama-rb"
   spec.version = Ollama::VERSION
   spec.authors = ["HeitorJr"]
   spec.email = ["heitor.adao@gmail.com"]
 
-  spec.summary = "ollama.rb is a CLI for local LLM's."
+  spec.summary = "ollama-rb is a CLI for local LLM's."
   spec.description = "A command line interface to interact with ollama AI agentic interface."
-  spec.homepage = "https://github.com/heitoradao/ollama.rb"
+  spec.homepage = "https://github.com/heitoradao/ollama-rb"
   spec.required_ruby_version = ">= 3.0.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"

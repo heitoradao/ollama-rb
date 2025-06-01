@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ollama.rb (0.1.1)
+    ollama-rb (0.1.1)
       json
       net-http
       uri
@@ -57,7 +57,7 @@ PLATFORMS
 DEPENDENCIES
   json
   net-http
-  ollama.rb!
+  ollama-rb!
   rake (~> 13.0)
   rouge
   rspec (~> 3.0)

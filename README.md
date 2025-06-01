@@ -1,4 +1,4 @@
-# ollama.rb
+# ollama-rb
 
 A ruby interface to local hosted llm's.
 
